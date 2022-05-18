@@ -1,0 +1,331 @@
+front_motion:
+    - flip:
+          - index : 1
+            filename: jump_front_opt_front_jump_220205.dat
+            pos_d: [0.85,0.0,0.0]
+            rpy_d: [0.0,0.0,0.0]
+            obstacle_A: [0.0,0.0,0.0]
+            obstacle_B: [0.0,0.0,0.0]
+            obstacle_C: [0.0,0.0,0.0]
+            obstacle_D: [0.0,0.0,0.0]
+            optimal_energy_cost: 6.2
+            optimal_3phase_time: [0.1,0.1,0.2]
+            optimal_phase1_pos:  [0.1,0.1,0.1]
+            optimal_phase1_dpos: [0.1,0.1,0.1]
+            optimal_phase1_rpy:  [0.1,0.1,0.1]
+            optimal_phase1_drpy: [0.1,0.1,0.1]
+            optimal_phase3_dpos: [0.1,0.1,0.1]
+            optimal_phase3_drpy: [0.1,0.1,0.1]
+          - index : 2
+            filename: jump_front_opt_front_jump_220204.dat
+            pos_d: [0.44,0.0,0.0]
+            rpy_d: [0.0,0.0,0.0]
+            obstacle_A: [0.0,0.0,0.0]
+            obstacle_B: [0.0,0.0,0.0]
+            obstacle_C: [0.0,0.0,0.0]
+            obstacle_D: [0.0,0.0,0.0]
+            optimal_energy_cost: 6.8
+            optimal_3phase_time: [0.1,0.1,0.2]
+            optimal_phase1_pos:  [0.1,0.1,0.1]
+            optimal_phase1_dpos: [0.1,0.1,0.1]
+            optimal_phase1_rpy:  [0.1,0.1,0.1]
+            optimal_phase1_drpy: [0.1,0.1,0.1]
+            optimal_phase3_dpos: [0.1,0.1,0.1]
+            optimal_phase3_drpy: [0.1,0.1,0.1]
+
+    - jump:
+          - index : 1
+            filename: jump_front_opt_four.dat
+            pos_d: [0.85,0.0,0.0]
+            rpy_d: [0.0,0.0,0.0]
+            obstacle_A: [0.0,0.0,0.0]
+            obstacle_B: [0.0,0.0,0.0]
+            obstacle_C: [0.0,0.0,0.0]
+            obstacle_D: [0.0,0.0,0.0]
+            optimal_energy_cost: 6.2
+            optimal_3phase_time: [0.1,0.1,0.2]
+            optimal_phase1_pos:  [0.1,0.1,0.1]
+            optimal_phase1_dpos: [0.1,0.1,0.1]
+            optimal_phase1_rpy:  [0.1,0.1,0.1]
+            optimal_phase1_drpy: [0.1,0.1,0.1]
+            optimal_phase3_dpos: [0.1,0.1,0.1]
+            optimal_phase3_drpy: [0.1,0.1,0.1]
+    - obstacle:
+        - index : 1
+          filename: jump_front_opt_two_300mm_desk_800.dat #ok
+          pos_d: [0.25,0.0,0.0]
+          rpy_d: [0.0,0.0,0.0]
+          obstacle_A: [0.3,0.0,0.15] #down
+          obstacle_B: [0.4,0.0,0.15]
+          obstacle_C: [0.4,0.0,0.55]
+          obstacle_D: [0.5,0.0,0.55]
+          optimal_energy_cost: 101.25
+          optimal_3phase_time: [0.1,0.1,0.2]
+          optimal_phase1_pos:  [0.1,0.1,0.1]
+          optimal_phase1_dpos: [0.1,0.1,0.1]
+          optimal_phase1_rpy:  [0.1,0.1,0.1]
+          optimal_phase1_drpy: [0.1,0.1,0.1]
+          optimal_phase3_dpos: [0.1,0.1,0.1]
+          optimal_phase3_drpy: [0.1,0.1,0.1]
+        - index : 2
+          filename: jump_front_opt_two_300mm_desk_700.dat #okjump_front_opt_two_obstacle
+          pos_d: [0.25,0.0,0.0]
+          rpy_d: [0.0,0.0,0.0]
+          obstacle_A: [0.3,0.0,0.15] #down
+          obstacle_B: [0.4,0.0,0.15]
+          obstacle_C: [0.4,0.0,0.55]
+          obstacle_D: [0.5,0.0,0.55]
+          optimal_energy_cost: 101.25
+          optimal_3phase_time: [0.1,0.1,0.2]
+          optimal_phase1_pos:  [0.1,0.1,0.1]
+          optimal_phase1_dpos: [0.1,0.1,0.1]
+          optimal_phase1_rpy:  [0.1,0.1,0.1]
+          optimal_phase1_drpy: [0.1,0.1,0.1]
+          optimal_phase3_dpos: [0.1,0.1,0.1]
+          optimal_phase3_drpy: [0.1,0.1,0.1]
+        - index : 3
+          filename: jump_front_opt_two_obstacle.dat #ok
+          pos_d: [0.85,0.0,0.0]
+          rpy_d: [0.0,0.0,0.0]
+          obstacle_A: [0.3,0.0,0.15] #down
+          obstacle_B: [0.4,0.0,0.15]
+          obstacle_C: [0.4,0.0,0.55]
+          obstacle_D: [0.5,0.0,0.55]
+          optimal_energy_cost: 101.25
+          optimal_3phase_time: [0.1,0.1,0.2]
+          optimal_phase1_pos:  [0.1,0.1,0.1]
+          optimal_phase1_dpos: [0.1,0.1,0.1]
+          optimal_phase1_rpy:  [0.1,0.1,0.1]
+          optimal_phase1_drpy: [0.1,0.1,0.1]
+          optimal_phase3_dpos: [0.1,0.1,0.1]
+          optimal_phase3_drpy: [0.1,0.1,0.1]
+left_motion:
+    - flip:
+        - index : 1
+          filename: jump_side_opt_left_flip.dat
+          pos_d: [0.85,0.0,0.0]
+          rpy_d: [0.0,0.0,0.0]
+          obstacle_A: [0.0,0.0,0.0]
+          obstacle_B: [0.0,0.0,0.0]
+          obstacle_C: [0.0,0.0,0.0]
+          obstacle_D: [0.0,0.0,0.0]
+          optimal_energy_cost: 6.2
+          optimal_3phase_time: [0.1,0.1,0.2]
+          optimal_phase1_pos:  [0.1,0.1,0.1]
+          optimal_phase1_dpos: [0.1,0.1,0.1]
+          optimal_phase1_rpy:  [0.1,0.1,0.1]
+          optimal_phase1_drpy: [0.1,0.1,0.1]
+          optimal_phase3_dpos: [0.1,0.1,0.1]
+          optimal_phase3_drpy: [0.1,0.1,0.1]
+        - index : 2
+          filename: jump_front_opt_front_jump_220204.dat
+          pos_d: [0.44,0.0,0.0]
+          rpy_d: [0.0,0.0,0.0]
+          obstacle_A: [0.0,0.0,0.0]
+          obstacle_B: [0.0,0.0,0.0]
+          obstacle_C: [0.0,0.0,0.0]
+          obstacle_D: [0.0,0.0,0.0]
+          optimal_energy_cost: 6.8
+          optimal_3phase_time: [0.1,0.1,0.2]
+          optimal_phase1_pos:  [0.1,0.1,0.1]
+          optimal_phase1_dpos: [0.1,0.1,0.1]
+          optimal_phase1_rpy:  [0.1,0.1,0.1]
+          optimal_phase1_drpy: [0.1,0.1,0.1]
+          optimal_phase3_dpos: [0.1,0.1,0.1]
+          optimal_phase3_drpy: [0.1,0.1,0.1]
+
+    - jump:
+        - index : 1
+          filename: jump_side_opt_left_four.dat
+          pos_d: [0.85,0.0,0.0]
+          rpy_d: [0.0,0.0,0.0]
+          obstacle_A: [0.0,0.0,0.0]
+          obstacle_B: [0.0,0.0,0.0]
+          obstacle_C: [0.0,0.0,0.0]
+          obstacle_D: [0.0,0.0,0.0]
+          optimal_energy_cost: 6.2
+          optimal_3phase_time: [0.1,0.1,0.2]
+          optimal_phase1_pos:  [0.1,0.1,0.1]
+          optimal_phase1_dpos: [0.1,0.1,0.1]
+          optimal_phase1_rpy:  [0.1,0.1,0.1]
+          optimal_phase1_drpy: [0.1,0.1,0.1]
+          optimal_phase3_dpos: [0.1,0.1,0.1]
+          optimal_phase3_drpy: [0.1,0.1,0.1]
+    - obstacle:
+        - index : 1
+          filename: jump_front_opt.dat
+          pos_d: [0.85,0.0,0.0]
+          rpy_d: [0.0,0.0,0.0]
+          obstacle_A: [0.3,0.0,0.15] #down
+          obstacle_B: [0.4,0.0,0.15]
+          obstacle_C: [0.4,0.0,0.55]
+          obstacle_D: [0.5,0.0,0.55]
+          optimal_energy_cost: 101.25
+          optimal_3phase_time: [0.1,0.1,0.2]
+          optimal_phase1_pos:  [0.1,0.1,0.1]
+          optimal_phase1_dpos: [0.1,0.1,0.1]
+          optimal_phase1_rpy:  [0.1,0.1,0.1]
+          optimal_phase1_drpy: [0.1,0.1,0.1]
+          optimal_phase3_dpos: [0.1,0.1,0.1]
+          optimal_phase3_drpy: [0.1,0.1,0.1]
+right_motion:
+    - flip:
+        - index : 1
+          filename: jump_side_opt_right_flip.dat
+          pos_d: [0.85,0.0,0.0]
+          rpy_d: [0.0,0.0,0.0]
+          obstacle_A: [0.0,0.0,0.0]
+          obstacle_B: [0.0,0.0,0.0]
+          obstacle_C: [0.0,0.0,0.0]
+          obstacle_D: [0.0,0.0,0.0]
+          optimal_energy_cost: 6.2
+          optimal_3phase_time: [0.1,0.1,0.2]
+          optimal_phase1_pos:  [0.1,0.1,0.1]
+          optimal_phase1_dpos: [0.1,0.1,0.1]
+          optimal_phase1_rpy:  [0.1,0.1,0.1]
+          optimal_phase1_drpy: [0.1,0.1,0.1]
+          optimal_phase3_dpos: [0.1,0.1,0.1]
+          optimal_phase3_drpy: [0.1,0.1,0.1]
+        - index : 2
+          filename: jump_front_opt_front_jump_220204.dat
+          pos_d: [0.44,0.0,0.0]
+          rpy_d: [0.0,0.0,0.0]
+          obstacle_A: [0.0,0.0,0.0]
+          obstacle_B: [0.0,0.0,0.0]
+          obstacle_C: [0.0,0.0,0.0]
+          obstacle_D: [0.0,0.0,0.0]
+          optimal_energy_cost: 6.8
+          optimal_3phase_time: [0.1,0.1,0.2]
+          optimal_phase1_pos:  [0.1,0.1,0.1]
+          optimal_phase1_dpos: [0.1,0.1,0.1]
+          optimal_phase1_rpy:  [0.1,0.1,0.1]
+          optimal_phase1_drpy: [0.1,0.1,0.1]
+          optimal_phase3_dpos: [0.1,0.1,0.1]
+          optimal_phase3_drpy: [0.1,0.1,0.1]
+
+    - jump:
+        - index : 1
+          filename: jump_side_opt_right_four.dat
+          pos_d: [0.85,0.0,0.0]
+          rpy_d: [0.0,0.0,0.0]
+          obstacle_A: [0.0,0.0,0.0]
+          obstacle_B: [0.0,0.0,0.0]
+          obstacle_C: [0.0,0.0,0.0]
+          obstacle_D: [0.0,0.0,0.0]
+          optimal_energy_cost: 6.2
+          optimal_3phase_time: [0.1,0.1,0.2]
+          optimal_phase1_pos:  [0.1,0.1,0.1]
+          optimal_phase1_dpos: [0.1,0.1,0.1]
+          optimal_phase1_rpy:  [0.1,0.1,0.1]
+          optimal_phase1_drpy: [0.1,0.1,0.1]
+          optimal_phase3_dpos: [0.1,0.1,0.1]
+          optimal_phase3_drpy: [0.1,0.1,0.1]
+    - obstacle:
+        - index : 1
+          filename: jump_front_opt.dat
+          pos_d: [0.85,0.0,0.0]
+          rpy_d: [0.0,0.0,0.0]
+          obstacle_A: [0.3,0.0,0.15] #down
+          obstacle_B: [0.4,0.0,0.15]
+          obstacle_C: [0.4,0.0,0.55]
+          obstacle_D: [0.5,0.0,0.55]
+          optimal_energy_cost: 101.25
+          optimal_3phase_time: [0.1,0.1,0.2]
+          optimal_phase1_pos:  [0.1,0.1,0.1]
+          optimal_phase1_dpos: [0.1,0.1,0.1]
+          optimal_phase1_rpy:  [0.1,0.1,0.1]
+          optimal_phase1_drpy: [0.1,0.1,0.1]
+          optimal_phase3_dpos: [0.1,0.1,0.1]
+          optimal_phase3_drpy: [0.1,0.1,0.1]
+rear_motion:
+    - flip:
+        - index : 1
+          filename: jump_rear_opt_back_flip.dat
+          pos_d: [0.85,0.0,0.0]
+          rpy_d: [0.0,0.0,0.0]
+          obstacle_A: [0.0,0.0,0.0]
+          obstacle_B: [0.0,0.0,0.0]
+          obstacle_C: [0.0,0.0,0.0]
+          obstacle_D: [0.0,0.0,0.0]
+          optimal_energy_cost: 6.2
+          optimal_3phase_time: [0.1,0.1,0.2]
+          optimal_phase1_pos:  [0.1,0.1,0.1]
+          optimal_phase1_dpos: [0.1,0.1,0.1]
+          optimal_phase1_rpy:  [0.1,0.1,0.1]
+          optimal_phase1_drpy: [0.1,0.1,0.1]
+          optimal_phase3_dpos: [0.1,0.1,0.1]
+          optimal_phase3_drpy: [0.1,0.1,0.1]
+        - index : 2
+          filename: jump_front_opt_front_jump_220204.dat
+          pos_d: [0.44,0.0,0.0]
+          rpy_d: [0.0,0.0,0.0]
+          obstacle_A: [0.0,0.0,0.0]
+          obstacle_B: [0.0,0.0,0.0]
+          obstacle_C: [0.0,0.0,0.0]
+          obstacle_D: [0.0,0.0,0.0]
+          optimal_energy_cost: 6.8
+          optimal_3phase_time: [0.1,0.1,0.2]
+          optimal_phase1_pos:  [0.1,0.1,0.1]
+          optimal_phase1_dpos: [0.1,0.1,0.1]
+          optimal_phase1_rpy:  [0.1,0.1,0.1]
+          optimal_phase1_drpy: [0.1,0.1,0.1]
+          optimal_phase3_dpos: [0.1,0.1,0.1]
+          optimal_phase3_drpy: [0.1,0.1,0.1]
+
+    - jump:
+        - index : 1
+          filename: jump_rear_opt_four.dat
+          pos_d: [0.85,0.0,0.0]
+          rpy_d: [0.0,0.0,0.0]
+          obstacle_A: [0.0,0.0,0.0]
+          obstacle_B: [0.0,0.0,0.0]
+          obstacle_C: [0.0,0.0,0.0]
+          obstacle_D: [0.0,0.0,0.0]
+          optimal_energy_cost: 6.2
+          optimal_3phase_time: [0.1,0.1,0.2]
+          optimal_phase1_pos:  [0.1,0.1,0.1]
+          optimal_phase1_dpos: [0.1,0.1,0.1]
+          optimal_phase1_rpy:  [0.1,0.1,0.1]
+          optimal_phase1_drpy: [0.1,0.1,0.1]
+          optimal_phase3_dpos: [0.1,0.1,0.1]
+          optimal_phase3_drpy: [0.1,0.1,0.1]
+    - obstacle:
+        - index : 1
+          filename: jump_front_opt.dat
+          pos_d: [0.85,0.0,0.0]
+          rpy_d: [0.0,0.0,0.0]
+          obstacle_A: [0.3,0.0,0.15] #down
+          obstacle_B: [0.4,0.0,0.15]
+          obstacle_C: [0.4,0.0,0.55]
+          obstacle_D: [0.5,0.0,0.55]
+          optimal_energy_cost: 101.25
+          optimal_3phase_time: [0.1,0.1,0.2]
+          optimal_phase1_pos:  [0.1,0.1,0.1]
+          optimal_phase1_dpos: [0.1,0.1,0.1]
+          optimal_phase1_rpy:  [0.1,0.1,0.1]
+          optimal_phase1_drpy: [0.1,0.1,0.1]
+          optimal_phase3_dpos: [0.1,0.1,0.1]
+          optimal_phase3_drpy: [0.1,0.1,0.1]
+turn_yaw_motion:
+    - jump:
+        - index : 1
+          filename: jump_yaw_opt.dat
+          pos_d: [0.85,0.0,0.0]
+          rpy_d: [0.0,0.0,0.0]
+          obstacle_A: [0.0,0.0,0.0]
+          obstacle_B: [0.0,0.0,0.0]
+          obstacle_C: [0.0,0.0,0.0]
+          obstacle_D: [0.0,0.0,0.0]
+          optimal_energy_cost: 6.2
+          optimal_3phase_time: [0.1,0.1,0.2]
+          optimal_phase1_pos:  [0.1,0.1,0.1]
+          optimal_phase1_dpos: [0.1,0.1,0.1]
+          optimal_phase1_rpy:  [0.1,0.1,0.1]
+          optimal_phase1_drpy: [0.1,0.1,0.1]
+          optimal_phase3_dpos: [0.1,0.1,0.1]
+          optimal_phase3_drpy: [0.1,0.1,0.1]
+
+
+
+
+

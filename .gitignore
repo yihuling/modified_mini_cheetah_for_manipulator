@@ -1,0 +1,5 @@
+.idea
+build
+mc-build
+cmake-build-debug
+content.txt
